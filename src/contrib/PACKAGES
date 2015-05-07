@@ -1,0 +1,133 @@
+Package: DT
+Version: 0.1.1
+Imports: htmltools, htmlwidgets (>= 0.4), magrittr
+Suggests: jsonlite (>= 0.9.16), knitr (>= 1.8), shiny (>= 0.12.0)
+License: GPL-3 | file LICENSE
+MD5sum: e410f90fb595b23b3fb9d8ac70da6ef9
+NeedsCompilation: no
+
+Package: evaluate
+Version: 0.6.2
+Depends: R (>= 3.0.2)
+Imports: stringr (>= 0.6.2)
+Suggests: testthat, lattice, ggplot2
+License: GPL
+MD5sum: 23c81463dfe239b782e1cf3a2b8ddff4
+NeedsCompilation: no
+
+Package: formatR
+Version: 1.2
+Depends: R (>= 3.0.2)
+Suggests: codetools, shiny, testit, knitr
+License: GPL
+MD5sum: f52f8ba811d3f9c85ff90729fc84f537
+NeedsCompilation: no
+
+Package: htmlwidgets
+Version: 0.4.2
+Imports: htmltools (>= 0.2.6), jsonlite (>= 0.9.16), yaml
+Suggests: knitr (>= 1.8)
+Enhances: shiny (>= 0.12)
+License: MIT + file LICENSE
+MD5sum: 35c0f20d1a090db1876afc2cfac88991
+NeedsCompilation: no
+
+Package: knitr
+Version: 1.10.12
+Depends: R (>= 3.0.2)
+Imports: evaluate (>= 0.6), digest, formatR, highr, markdown, stringr
+        (>= 0.6), yaml (>= 2.1.5), tools
+Suggests: testit, rgl (>= 0.95.1201), codetools, rmarkdown, XML, RCurl
+License: GPL
+MD5sum: 3e084912e2778eb0dabb2833fbd1d8c3
+NeedsCompilation: no
+
+Package: mime
+Version: 0.3.1
+Imports: tools
+License: GPL-2
+MD5sum: 19b4a29dea5380004ab0301a6bc25ee6
+NeedsCompilation: yes
+
+Package: printr
+Version: 0.0.4
+Imports: knitr (>= 1.6.18)
+Suggests: tools, rmarkdown
+License: GPL
+MD5sum: e333104846c08db88e8eb3977e55d989
+NeedsCompilation: no
+
+Package: Rd2roxygen
+Version: 1.6
+Imports: roxygen2 (>= 4.0.0), formatR (>= 1.0)
+Suggests: knitr (>= 1.9), rmarkdown
+License: GPL
+MD5sum: d51896971b9358bb2e01327241f54244
+NeedsCompilation: no
+
+Package: recharts
+Version: 0.0.2
+Imports: htmltools, htmlwidgets (>= 0.3.3), magrittr
+Suggests: knitr, rmarkdown, shiny (> 0.11.1)
+License: MIT + file LICENSE
+MD5sum: 1f6ca3a83dc3109f0ff463f4ce0c2e5a
+NeedsCompilation: no
+
+Package: rlp
+Version: 0.0.2
+Depends: R (>= 3.0.0)
+Suggests: knitr (>= 1.8.12), rmarkdown
+License: MIT + file LICENSE
+MD5sum: 571d04a3c3a1013970075b0639fcb3bb
+NeedsCompilation: no
+
+Package: rmarkdown
+Version: 0.6
+Depends: R (>= 3.0)
+Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>=
+        0.2.4), caTools
+Suggests: shiny (>= 0.11), testthat, digest
+License: GPL-3
+MD5sum: 05184cec92522936ee5b351403cf9f1f
+NeedsCompilation: no
+
+Package: rnotebook
+Version: 0.0.2
+Imports: knitr (>= 1.8), jsonlite (>= 0.9.14)
+Suggests: rmarkdown, servr (> 0.1)
+License: MIT + file LICENSE
+MD5sum: a92f298af08c2bd14a483fdea25d153c
+NeedsCompilation: no
+
+Package: runr
+Version: 0.0.7
+License: GPL
+MD5sum: 91580de62aa2378057f9ff7d0e12a542
+NeedsCompilation: no
+
+Package: servr
+Version: 0.2.1
+Depends: R (>= 3.0.0)
+Imports: mime (>= 0.2), httpuv (>= 1.3.2), jsonlite
+Suggests: tools, knitr (>= 1.9), rmarkdown
+License: GPL
+MD5sum: 2cdd1d2d5542542b40fa9451b8754a8f
+NeedsCompilation: no
+
+Package: shiny
+Version: 0.12.0
+Depends: R (>= 3.0.0)
+Imports: utils, httpuv (>= 1.3.2), mime (>= 0.3), jsonlite (>= 0.9.16),
+        xtable, digest, htmltools (>= 0.2.6), R6 (>= 2.0)
+Suggests: datasets, Cairo (>= 1.5-5), testthat, knitr (>= 1.6),
+        markdown, ggplot2
+License: GPL-3 | file LICENSE
+MD5sum: 6aba419b207b96dd60e016d0bca2b14c
+NeedsCompilation: no
+
+Package: testit
+Version: 0.4.1
+License: GPL
+MD5sum: 238c39304f14b3be06d28dcc23559e3f
+NeedsCompilation: no
+
